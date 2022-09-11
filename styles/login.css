@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.border-box {
+    position: fixed;
+    top: 12px;
+    right: 10px;
+    left: 10px;
+    bottom: 12px;
+    background: none;
+    border: .001mm solid #00FFC8;
+    border-radius: 15px;
+    border-width: .1px;
+    background: url(../assets/noise.png);
+}
+.border-box a {
+    /* background-color: red; */
+    right: 0;
+    position: absolute;
+    top: 0;
+    height: 3.5rem;
+    width: 8rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-Bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: .001mm solid #00FFC8;
+    padding-top: .25rem;
+    padding-left: 2.4rem;
+    text-decoration: none;
+    color: #BDFFF1;
+    font-size: .8rem;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(308.45deg, rgba(0, 255, 200, 0.4) -94.97%, rgba(0, 255, 200, 0) 70.06%);;
+}
+
+.border-box a svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.border-box h1 {
+    color: #BDFFF1;
+    font-size: 10px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 1.6rem;
+    left: 4rem;
+}
+
+.border-box h1 i {
+    margin-right: 6px;
+    font-size: 5px;
+    color: #00FFC8;
+    margin-left: 7px;
+}
+
+.border-box img {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: .7rem;
+    left: .7rem;
+}
+
+.hero {
+    background-color: #181a1c;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/page-bg-2--river.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.hero-content {
+    box-shadow: rgb(0 255 200) 0px 0px 30px 0px, rgb(0 255 200) 0px 0px 20px 0px inset;
+    border: 1px solid #00FFC8;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    overflow: visible;
+    background-color: inherit;
+}
+
+.hero a h1 {
+    position: absolute;
+    width: 18rem;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00FFC8;
+    margin-left: -2.15rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-content {
+        margin-top: 20rem;
+    }
+    .border-box h1 {
+        font-size: 6px;
+    }
+    .border-box h1 i {
+        font-size: 3px;
+        margin-right: 2px;
+    }
+    .hero a h1 {
+        margin-top: 25rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero-content {
+        margin-top: 14rem;
+    }
+    .hero a h1 {
+        margin-top: 19rem;
+    }
+}
+
+@media (min-width:374px) and (max-width:376px) {
+    .hero-content {
+        margin-top: 13.5rem;
+    }
+    .hero a h1 {
+        margin-top: 19rem;
+    }
+}
+
+@media (min-width:413px) and (max-width:415px) {
+    .hero-content {
+        margin-top: 14rem;
+    }
+    .hero a h1 {
+        margin-top: 19rem;
+    }
+}
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+* {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: #181a1c ;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #181a1c;
+    overflow-x: scroll;
+}
+textarea,
+input {
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+.formpage {
+    margin-top: 10rem;
+}
+
+
+
+
+.tab-content {
+    background: linear-gradient(308.45deg, rgba(0, 255, 200, 0.4) -94.97%, rgba(0, 255, 200, 0) 70.06%);
+    background-color: inherit !important;
+}
+.nav-link {
+    color: #00FFC8 !important;
+    font-weight: 400;
+    font-size: 12px;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.nav-item {
+    -webkit-transition:300ms linear;
+    transition: 300ms linear;
+}
+.nav-item:hover {
+    background-color: #fff;
+    color: black !important;
+}
+.tab-content {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 2px;
+}
+.formpage-header h1 {
+    color: #00FFC8 !important;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    margin-top: -4rem !important;
+}
+.formpage-header h6 {
+    color: #00FFC8;
+    font-size: 12px;
+    margin-bottom: 4rem;
+    margin-top: -3rem !important;
+}
+.nav-item .active {
+    color: #00FFC8 !important;
+    background-color: inherit !important;
+}
+.nav-item .active:hover {
+    background-color: inherit;
+}
+
+.form-text {
+    margin-top: 1rem;
+    color: #00FFC8;
+    font-size: 12px;
+    font-weight: 400;
+}
+.form-label {
+    color: #00FFC8;
+    font-weight: 500;
+    font-size: 14px;
+}
+select {
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+.btn-primary {
+    background-color: inherit !important;
+    border: 1px solid #00FFC8 !important;
+    color: #00FFC8;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: black !important;
+    color: #00FFC8;
+}
+@media screen and (max-width: 768px) {
+    .formpage-header {
+        margin-top: -6rem !important ;
+    }
+    .formpage-header h6 {
+        font-size: 10px;
+        line-height: 1.3rem;
+    }
+    .form-box {
+        margin-top: -1rem;
+    }
+    .nav-link {
+        font-size: 10px !important;
+    }
+    .form-text {
+        font-size: 10px;
+        line-height: 1.3rem;
+    }
+    .form-label {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 413px) {
+ .nav-link {
+     font-size: 12px;
+ }   
+}
